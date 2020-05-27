@@ -1,0 +1,71 @@
+body {
+    background-color: #f0f0f5;
+}
+
+.perfil-container {
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 550px;
+    margin: 2em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+    text-align: center;
+}
+.perfil-container .form {
+    padding-top: 10px;
+}
+
+.perfil-container .form h1 {
+    padding-top: 10px;
+    color: rgb(72, 53, 246);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+}
+
+input {
+    width: 76%;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: 1px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.perfil-container .form input:focus, .input:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) ;
+}
+
+button {
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    width: 55%;
+    background: rgb(72, 53, 246);
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.perfil-container .form p {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: rgb(190, 196, 231);
+    padding-top: 15px;
+}
