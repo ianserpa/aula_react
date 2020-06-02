@@ -20,6 +20,7 @@ function Perfil(){
                 <input type="text" placeholder={localStorage.getItem('email')} readOnly/><br/><br/>
                 
                 <Link to="/cadastro"><button type="button"><BsPeopleCircle size={18}/>  Acessar tela de Cadastros</button></Link>
+                <Link to="/usuarios"><button type="button"><BsPeopleCircle size={18}/>  Usuários cadastrados</button></Link>
             </form>
             <br/>
             <button type="submit" onClick={clearCache}><AiOutlinePoweroff size={14}/>  Logout</button>

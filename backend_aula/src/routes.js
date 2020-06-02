@@ -1,7 +1,7 @@
 const express = require('express');
 const routes = express.Router();
 const connection = require('./database/connection');
-const crypto = require('crypto'); //08-05
+const crypto = require('crypto'); //08-05 
 
 routes.post('/usuario/', async (request, response) =>{
     const {nome, email, senha} = request.body;
